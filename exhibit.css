@@ -1,0 +1,90 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgba(110,45,48,1);
+}
+
+/*------heading--------*/
+.heading {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(235,170,160,1);
+  height: 15%;
+  padding-top: 5vh;
+  color: white;
+  font-size: 20px;
+  font-weight: 320;
+  padding-bottom: 5vh;
+  justify-content: space-between;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 40px;
+  font-size: 2.5em;
+}
+
+.heading a {
+  padding-top: 3vh;
+  padding-right: 3vh;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 15px;
+
+
+}
+
+.space {
+  height: 2vh;
+  width: 5px;
+}
+
+.heading h1 {
+  text-transform: uppercase;
+}
+
+.heading {
+  letter-spacing: 1px;
+}
+
+/*------body-----*/
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  height: 85%;
+}
+
+.content p {
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.description {
+  padding: 45px 5px 5px 20px;
+  width: 30%;
+  padding-right: 5vw;
+}
+
+.description h1 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.mainimage {
+  width: 70%;
+}
+
+.mainimage {
+  height: 95%;
+  width: 90%;
+}
